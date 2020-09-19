@@ -2,7 +2,7 @@
 
 Pavlovia can take a while to load your resources, which can be troublesome if you need to load a lot of them. Here's a workaround:
 
-1. Define your own image loading function and save this JavaScript file beside your experiment JavaScript file 
+1. Define your own image loading function and save this JavaScript file beside your experiment JavaScript file
 
 ```jsx
 var img;
@@ -81,7 +81,7 @@ for (var i = 0; i < imagelist.length; i++) {
 }
 ```
 
-5.  Set the <image> attribute of the image component 
+5.  Set the <image> attribute of the image component
 
 Python:
 
@@ -90,7 +90,7 @@ Python:
 shuffle(outputimage)
 
 # indexing
-this_image = outputimage[TrialCounter] 
+this_image = outputimage[TrialCounter]
 
 # set image
 Image.setImage(this_image)
@@ -150,3 +150,6 @@ function load_image(src) {
 	console.log('loaded',scr);
 }
 ```
+---
+
+Also available on PSU github

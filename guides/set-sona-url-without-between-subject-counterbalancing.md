@@ -39,3 +39,5 @@ function updateInfo() {
 References
 
 - SONA: [https://www.sona-systems.com/help/psychopy.aspx](https://www.sona-systems.com/help/psychopy.aspx)
+
+Also available on PSU github

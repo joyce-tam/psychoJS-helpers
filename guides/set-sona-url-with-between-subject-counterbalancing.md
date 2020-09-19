@@ -25,7 +25,7 @@ $"https://pennstate.sona-systems.com/webstudy_credit.aspx?experiment_id=123&cred
 4. Set the condition variable as:
 
 ```python
-condition = int(expInfo['participant'])%x 
+condition = int(expInfo['participant'])%x
 # x is the number of conditions. This will assign values 0 to x-1
 ```
 
@@ -46,7 +46,7 @@ function updateInfo() {
 ```jsx
 function experimentInit() {
 	...
-	var condition = Number.parseInt(expInfo['participant'])%x 
+	var condition = Number.parseInt(expInfo['participant'])%x
 	// x is the number of conditions. This will assign values 0 to x-1
 	...
 }
@@ -58,3 +58,5 @@ References
 
 - SONA: [https://www.sona-systems.com/help/psychopy.aspx](https://www.sona-systems.com/help/psychopy.aspx)
 - Counterbalancing app built by Wakefield Morys-Carter: [https://moryscarter.com/vespr/pavlovia.php](https://moryscarter.com/vespr/pavlovia.php)
+
+Also available on PSU github
